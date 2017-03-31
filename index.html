@@ -1,1 +1,92 @@
-hello hello hello
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1">
+    <title> Fallon Creech</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <script type="text/javascript" src="js/sticky_nav.js"></script>
+    <script type="text/javascript" src="js/jquery-3.2.0.min.js"></script>
+    <script type="text/javascript" src="js/jquery.cycle2.min.js"></script>
+    <style type="text/css">
+* {padding:0; margin:0;}
+body {font-family:Sans-Serif;}
+img {max-width:100%;}
+    .cycle-slideshow {
+        width: 100%;
+        display: block;
+        position: relative;
+        margin: 0 auto;
+    }
+    .cycle-prev, .cycle-next {
+        font-size: 200%;
+        color: white;
+        display: block;
+        position: absolute;
+        top: 50%;
+        margin-top: -16px;
+        z-index: 9999;
+        cursor: pointer;
+    }
+    .cycle-prev {left: 10%;}
+    .cycle-next {right: 10%;}
+    .cycle-pager {
+        width: 100%;
+        text-align: center;
+        display: block;
+        position: absolute;
+        bottom: 20px;
+        z-index: 9999;
+        cursor: pointer;
+    }
+    .cycle-pager span {
+        text-indent: 100%;
+        white-space: nowrap;
+        width: 12px;
+        height: 12px;
+        display: block;
+        border: 1px solid #FFF;
+        border-radius: 50%;
+        margin: 0 10px;
+    }
+    .cycle-pager .cycle-pager-active {background: #FFF;}
+</style>
+</head>
+<body>
+    <!FULL WIDTH RESPONSIVE IMAGE SLIDER>
+    <div class="cycle-slideshow">
+        <span class="cycle-prev">&#9001;</span>
+        <span class="cycle-next">&#9002;</span>
+        <span class="cycle-pager"></span>
+        <img src="img/IMG_1011.png" alt="cube house view 1">
+        <img src="img/IMG_1017.png" alt="cube house view 2">
+    </div>
+    
+    <section id="aboutMe">
+        <h1>About Me</h1>
+    </section>
+    
+    <section id="projects">
+        <h2>Projects</h2>
+    </section>
+    
+    <section id="resume">
+        <h3>Resume</h3>
+    </section>
+    
+    <section id="contact">
+        <h4>Contact</h4>
+    </section>
+    <!SMOOTH SCROLLING>
+    <div class="about me" id="about me">
+    </div>
+    <div class="projects" id="projects">
+    </div>
+    <div class="resume" id="resume">
+    </div>
+    <div class="contact" id="contact">
+    </div>
+    
+    
+</body>
+</html>
